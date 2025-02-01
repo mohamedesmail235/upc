@@ -242,3 +242,10 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+jinja = {
+    "methods": [
+     	"upc.utils.printformat_utils.getTotalInWordsAr",
+		"upc.utils.printformat_utils.getTotalInWordsEn",
+      	"upc.utils.printformat_utils.formatDate"
+   ]
+}
